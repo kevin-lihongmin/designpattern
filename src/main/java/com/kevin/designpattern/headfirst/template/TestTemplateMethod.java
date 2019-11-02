@@ -13,12 +13,12 @@ import com.kevin.designpattern.headfirst.template.base.Tea;
  *      泡茶需要柠檬水等！
  *      tea is OK !
  * ---------------------------------------------
- *      tea ......
+ *      coffee ......
  *      将水煮沸!
  *      咖啡需要直接泡！
  *      将沸腾的水倒入杯中!
  *      咖啡需要白开水等！
- *      tea is OK !
+ *      coffee is OK !
  *
  * @author lihongmin
  * @date 2018/9/3 22:30
@@ -32,8 +32,8 @@ public class TestTemplateMethod {
 
         System.out.println("---------------------------------------------");
 
-        System.out.println("tea ......");
+        System.out.println("coffee ......");
         Coffee coffee = new Coffee();
-        System.out.println("tea is OK !");
+        System.out.println("coffee is OK !");
     }
 }
