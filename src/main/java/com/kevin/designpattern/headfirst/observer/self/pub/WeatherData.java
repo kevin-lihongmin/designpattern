@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 /**
  *   观察者模式的实现
- *
  * @author lihongmin
  * @date 2018/9/1 15:08
  */

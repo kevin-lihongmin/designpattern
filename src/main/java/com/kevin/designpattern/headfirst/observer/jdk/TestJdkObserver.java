@@ -19,14 +19,11 @@ import com.kevin.designpattern.headfirst.observer.jdk.sub.CurrentConditionsDispl
  *
  * @author lihongmin
  * @date 2018/9/1 16:03
- *
  * @see java.util.Observer
  * @see java.util.Observable
  */
 public class TestJdkObserver {
-
     public static void main(String[] args) {
-
         System.out.println("主题变更了，我需要new一个对象 (设置变更的温度湿度等...)! ");
         WeatherData weatherData = new WeatherData(20.5F, 10.5F);
 
