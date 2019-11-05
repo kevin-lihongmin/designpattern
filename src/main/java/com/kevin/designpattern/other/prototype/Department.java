@@ -1,10 +1,13 @@
 package com.kevin.designpattern.other.prototype;
 
+import lombok.Data;
+
 /**
  *  部门
  * @author kevin
  * @date 2019/11/5 17:30
  */
+@Data
 public class Department implements Cloneable {
 
     private Long id;
@@ -14,21 +17,5 @@ public class Department implements Cloneable {
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }
