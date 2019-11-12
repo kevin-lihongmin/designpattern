@@ -4,14 +4,12 @@ import com.kevin.designpattern.headfirst.decorator.beverage.Beverage;
 
 /**
  *   摩卡
- *
  * @author lihongmin
  * @date 2018/9/2 2:48
  */
 public class Mocha extends CondimentDecorator {
 
     private static final double COST = 13.5;
-
     /**
      *  被装饰者
      */
@@ -34,5 +32,4 @@ public class Mocha extends CondimentDecorator {
         System.out.println("我现在的价钱是委托之前的，加上Mocha的钱了，切记！");
         return beverage.cost() + COST;
     }
-
 }

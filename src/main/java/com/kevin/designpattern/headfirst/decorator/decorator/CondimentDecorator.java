@@ -9,11 +9,9 @@ import com.kevin.designpattern.headfirst.decorator.beverage.Beverage;
  * @date 2018/9/2 2:34
  */
 public abstract class CondimentDecorator extends Beverage{
-
     /**
      *  覆盖父类的描述方法，并且抽象后让子类实现
      */
     @Override
     public abstract String getDescription();
-
 }

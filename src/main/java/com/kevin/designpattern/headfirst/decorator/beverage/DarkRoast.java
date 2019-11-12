@@ -2,7 +2,6 @@ package com.kevin.designpattern.headfirst.decorator.beverage;
 
 /**
  *  重炒
- *
  * @author lihongmin
  * @date 2018/9/2 3:18
  */

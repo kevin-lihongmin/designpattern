@@ -4,7 +4,6 @@ import com.kevin.designpattern.headfirst.decorator.beverage.Beverage;
 
 /**
  *   豆浆
- *
  * @author lihongmin
  * @date 2018/9/2 3:11
  */
